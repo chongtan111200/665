@@ -1,6 +1,8 @@
 package abstractFactory;
 
-
+/**
+ * an interface for the 2 kinds of players
+ */
 import scrabbleGame.PlayerInterface;
 import tile.Tile;
 

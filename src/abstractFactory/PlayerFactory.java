@@ -5,6 +5,12 @@ import scrabbleGame.PlayerInterface;
 import scrabbleGame.PlayerVip;
 import tile.Tile;
 
+/**
+ * the player factory
+ * produces the player in the run time
+ * @author chong tian
+ *
+ */
 public class PlayerFactory extends AbstractFactory{
 	
 	   @Override

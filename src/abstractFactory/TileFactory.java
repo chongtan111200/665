@@ -5,6 +5,12 @@ import scrabbleGame.PlayerInterface;
 import tile.RegularTile;
 import tile.Tile;
 
+/**
+ * the tile factory
+ * produces the 2 kinds of tile in the run time
+ * @author chong tian
+ *
+ */
 public class TileFactory extends AbstractFactory {
 
 	@Override
