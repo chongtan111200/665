@@ -29,7 +29,7 @@ public class ScrabbleMain {
     final JFrame frame = new JFrame(GAME_NAME);
     frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-    final Game game = new Game();
+    final Game game = Game.getGame();
 
     // Create and set up the content pane.
     final ScrabblePanel gamePanel = new ScrabblePanel(game);

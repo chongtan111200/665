@@ -30,12 +30,20 @@ public class Game {
 	private List<Player> allPlayers;
 	private List<Tile> allRegularTiles;
 	private final List<GameChangeMediator> gameChangeListeners;
+	private static Game oneGame = new Game();
 	
+	/**
+	 * 
+	 * @return only one game
+	 */
+	public static Game getGame(){
+		return oneGame;
+	}
 	/**
 	 * Construct the board using 2D array
 	 * 	 * 
 	 */
-	public Game() {
+	private Game() {
 		board = new Square[LENGTH][LENGTH];
 		tileNum = 0;
 		passedRounds=0;
