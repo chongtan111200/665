@@ -9,6 +9,7 @@ import tile.RegularTile;
  * b 2
  * c 1
  * d 1
+ * this class shows the result of the tiles created from the txt file
  * @author chong tian
  *
  */
