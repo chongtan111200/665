@@ -1,5 +1,10 @@
 package mediatorPattern;
 
+/**
+ * a speical palyer that can talk to each other
+ * @author chong tian
+ *
+ */
 public class ChatPlayer {
 	   private String name;
 	   

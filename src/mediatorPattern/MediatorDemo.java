@@ -1,5 +1,10 @@
 package mediatorPattern;
 
+/**
+ * demonstarte the mediator pattern
+ * @author chong tian
+ *
+ */
 public class MediatorDemo {
 	public static void main(String[] args) {
 		ChatPlayer p1 = new ChatPlayer("player1");
