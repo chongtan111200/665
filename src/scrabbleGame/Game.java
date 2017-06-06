@@ -53,6 +53,7 @@ public class Game {
 		gameChangeListeners = new ArrayList<>();
 		iniBoard();
 		iniRegularTile();
+
 	}
 
 	private void iniBoard() {

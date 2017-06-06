@@ -39,6 +39,10 @@ public class ScrabbleMain {
     // Display the window.
     frame.pack();
     frame.setVisible(true);
+    for(scrabbleGame.Player p: game.getAllPlayers()){
+    	System.out.println(p.getRegularTiles());
+    }
+
   }
 }
 
